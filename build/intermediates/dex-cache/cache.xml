@@ -2,10 +2,28 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-68f1ddd198804e4b47bab76450aa512855858f06.jar"
-        jar="/Users/nagarjun/Nagarjun/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        dex="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-a74cf13ca667f0057e00462f25b358c80b9d2b7f.jar"
+        jar="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156"/>
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-28b6183f6668f571c4b5d694bfeaa08e786b08f1.jar"
+        jar="/Users/nagarjun/Nagarjun/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/pre-dexed/debug/classes-8c35cb2b79533d31340c0f84c1e079522fc6c695.jar"
+        jar="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef"/>
+    <item
+        dex="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/pre-dexed/debug/classes-b40740340093c347e9845ee75be49a297d3238ab.jar"
+        jar="/Users/nagarjun/AndroidStudioProjects/Game/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
 
 </pre-dex-items>

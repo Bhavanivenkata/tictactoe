@@ -57,15 +57,14 @@ public class VsAI extends Activity {
 	 
 	    @Override
 	    public void onClick(View view) {
-	        if(turn==false)
-	    	if(view instanceof Button) {
-	            Button B = (Button) view;
-	            table[x][y] =  turn ? 'O' : 'X';
-	            B.setText("X");
-	            B.setEnabled(false);
-	            turn = !turn;
-	            checkwin(view);
-	        }
+	        if(turn==false) if (view instanceof Button) {
+                Button B = (Button) view;
+                table[x][y] = turn ? 'O' : 'X';
+                B.setText("X");
+                B.setEnabled(false);
+                turn = !turn;
+                checkwin(view);
+            }
 	    }
 	}
 	public void newGame(View view) {
