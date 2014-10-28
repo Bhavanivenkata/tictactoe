@@ -15,6 +15,7 @@ public class VsAI extends Activity {
 	private boolean turn= false;
 	private char table[][]= new char[3][3];
 	int win[]=new int[3];
+    int count = 0;
 	
 	
 	@Override
@@ -57,13 +58,27 @@ public class VsAI extends Activity {
 	 
 	    @Override
 	    public void onClick(View view) {
-	        if(turn==false) if (view instanceof Button) {
-                Button B = (Button) view;
-                table[x][y] = turn ? 'O' : 'X';
-                B.setText("X");
-                B.setEnabled(false);
-                turn = !turn;
-                checkwin(view);
+	         if (view instanceof Button) {
+                switch((count%2))
+                {
+                    case 0: Button B = (Button) view;
+                            table[x][y] = 'X';
+                            B.setText("X");
+                            B.setEnabled(false);
+                            turn = !turn;
+                            checkwin(view);
+                            count++;
+                        break;
+                    case 1: Button C = (Button) view;
+                            table[x][y] = 'O';
+                            C.setText("O");
+                            C.setEnabled(false);
+                            turn = !turn;
+                            checkwin(view);
+                            count++;
+                        break;
+                }
+
             }
 	    }
 	}

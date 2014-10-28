@@ -24,7 +24,11 @@
         </activity>
         <activity
             android:name="com.game.TwoPlayer"
-            android:label="@string/app_name" >
+            android:label="vs. AI" >
+        </activity>
+        <activity
+            android:name="com.game.VsAI"
+            android:label="Two Player" >
         </activity>
     </application>
 
